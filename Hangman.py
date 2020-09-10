@@ -1,7 +1,7 @@
 import random
 import time
 
-# Initial Steps to invite in the game:
+
 print("\n Sofware Engineering Project \n")
 print("\nWelcome to Hangman game by Avi Gupta\n")
 name = input("Enter your name: ")
@@ -11,7 +11,6 @@ print("The game is about to start!\n Let's play Hangman!")
 time.sleep(3)
 
 
-# The parameters we require to execute the game:
 def main():
     global count
     global display
@@ -28,7 +27,6 @@ def main():
     already_guessed = []
     play_game = ""
 
-# A loop to re-execute the game when the first round ends:
 
 def play_loop():
     global play_game
@@ -41,7 +39,6 @@ def play_loop():
         print("Thanks For Playing! We expect you back again!")
         exit()
 
-# Initializing all the conditions required for the game:
 def hangman():
     global count
     global display
